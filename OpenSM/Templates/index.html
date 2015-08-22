@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head lang="en">
+    <meta charset="UTF-8">
+    <title>Flask with React.js</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- styles -->
+  </head>
+  <body>
+    <div>
+      <h1>Flask with React.js</h1>
+      <br>
+      <div id="content"></div>
+    </div>
+    <!-- scripts -->
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/react/0.12.0/react.js"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/react/0.12.0/JSXTransformer.js"></script>
+    <script type="text/jsx">
+
+      var helloWorld = React.createClass({
+        render: function() {
+          return (<h3>Our First Flask and React.js app!</h3>)
+        }
+      });
+
+      React.render(
+        React.createElement(helloWorld, null),
+        document.getElementById('content')
+      );
+    </script>
+  </body>
+</html>
