@@ -1,0 +1,4 @@
+Today is a great day to test out Markov chains! Markov chains, as I am sure you are aware, can be used to do many, many
+exciting things. They can be used to create music, text and numbers. All with a curtain, random flare! Programming a
+Markov chain can be quite enjoyable for that you find mathematics and programming enjoyable. I dare say, there is an
+infinite amount of fun and knowledge that can be gained from playing with Markov chains.
